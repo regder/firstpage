@@ -41,14 +41,16 @@ body{
     float: right;
 }*/
 #menu{
-    background-color: #eee;
+    background-color: gray;
     float: left;
-    width: 150px;
+    width: 160px;
+    height: 100%;
+
 
 }
 #content{
     background-color: #eee;
-    margin-left: 150px;
+    margin-left: 160px;
     padding-left: 10px;
     padding-right: 10px;
     text-indent: 1.5em; /* Отступ первой строки */
@@ -56,10 +58,13 @@ body{
     overflow: auto;
 }
 #main{
-    background-color: #ddd;     
+    background-color: #eee;
+
     padding: 0px;   
-    margin-left: 150px;
+    margin-left: 160px;
     border-left: 1px solid #ccc;
+    height: 100%;
+    
     
 }
 #footer{ 
@@ -92,11 +97,11 @@ li.menul{
     display: table-row;
 }
 ul.nav{
-    margin-left: 0px;
+    margin-left: 10px;    
     padding-left: 0px;
     list-style: none;
 }
-ul.nav a {
+ul.nav a.block2{
     display: block;
     width: 7em;
     padding:10px;
@@ -108,6 +113,7 @@ ul.nav a {
     text-decoration: none;
     color: #333;
     text-align: center;
+    text-indent: 0.5em;
     margin: 0 5px;
 }
 ul.nav li:last-child a {
@@ -124,7 +130,7 @@ ul.nav a.blockm {
     display: block;
     width: 8.25em;
     padding:10px;
-    margin: 0px;
+    margin: 0px;    
     background-color: #f4f4f4;
     border-top: 1px dashed #333;
     border-right: 1px dashed #333;
